@@ -1,5 +1,5 @@
 # Memory Game:pizza::hamburger::fries:
-A Memory game that uses JavaScript. FreeCodeCamp Activity. 
+- A Memory game that uses JavaScript. FreeCodeCamp Activity. 
 https://denzgrant.github.io/Memory-Game-/
 # Rules of Game
 - You will start by flipping over one card
