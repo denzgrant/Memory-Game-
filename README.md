@@ -8,4 +8,4 @@ A Memory game that uses JavaScript. FreeCodeCamp Activity.
 -The game continues until you match all the cards on the board
 
 # Screenshot
-![](Images/memory_screenshot.PNG)
+![](images/memory_screenshot.PNG)
