@@ -9,3 +9,5 @@ A Memory game that uses JavaScript. FreeCodeCamp Activity.
 
 # Screenshot
 ![](images/memory_screenshot.PNG)
+### Warning 
+ - This project may potentially trigger seizures for people with photosensitive epilepsy because of flashing colors. Viewer discretion is advised.
