@@ -6,4 +6,6 @@ A Memory game that uses JavaScript. FreeCodeCamp Activity.
 -These cards then disspear
 -If the next card you flip does not match, a pop up alert notifies you of ths and the cards flip back
 -The game continues until you match all the cards on the board
-#Screenshot
+
+# Screenshot
+![](Images/memory_screenshot.PNG)
