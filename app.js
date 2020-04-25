@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
-   
     //flip your card
     function flipcard() {
      let cardId = this.getAttribute('data-id')
