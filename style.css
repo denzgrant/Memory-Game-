@@ -1,11 +1,14 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+  }
+  h3 {
+  text-align: center;
   }
   body {
-    background-color: #fff;
     -webkit-animation: random 5s infinite;
     animation: random 5s infinite;
   }

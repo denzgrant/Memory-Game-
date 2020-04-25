@@ -79,20 +79,22 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionOneId = cardsChosenId[0]; 
         const optionTwoId = cardsChosenId[1]; 
         if (cardsChosen[0] === cardsChosen [1]) {
-            alert("You found a match") 
-            cards[optionOneId].setAttribute('src', 'images/white.png')
-            cards[optionTwoId].setAttribute('src', 'images/white.png')
-            cardsWon.push(cardsChosen)
+           cardsWon.push(cardsChosen)
         } else {
             cards[optionOneId].setAttribute('src', 'images/blank.png')
             cards[optionTwoId].setAttribute('src', 'images/blank.png')
-            alert('Sorry, Try Again')
+            
         }
         cardsChosen = [];
         cardsChosenId = [];
         resultDisplay.textContent = cardsWon.length 
         if (cardsWon.length === cardArray.length/2) {
             resultDisplay.textContent = 'Congratulations! You won the game!'
+            let newgame = confirm("Do you want to play again?");
+            if (newgame === true) {
+                location.reload();
+                
+            }
         }
     }
    
